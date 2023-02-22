@@ -224,7 +224,6 @@ img {
 
 .sp-heroSection .inner-hero .hero-inner-text {
     width: 727px;
-    height: 242px;
 }
 
 .sp-heroSection .inner-hero .hero-inner-text .hero-header {
@@ -276,6 +275,7 @@ img {
     fill: #FFFFFF;
 }
 
+
 /* Shape 2 */
 
 .sp-heroSection .custom-shape-divider-bottom-1676738375 {
@@ -288,7 +288,6 @@ img {
     line-height: 0;
     transform: rotate(180deg);
 }
-
 
 .sp-heroSection .custom-shape-divider-bottom-1676738375 svg {
     position: relative;
@@ -712,15 +711,6 @@ img {
     border-radius: 16px;
 }
 
-.connectCompanines .connectcol-two .inner-connectcol-two h3 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 110%;
-    letter-spacing: -0.02em;
-    color: #111827;
-}
-
 .connectCompanines .connectcol-two .inner-connectcol-two .connectcol-two-info h4 {
     font-style: normal;
     font-weight: 500;
@@ -767,6 +757,7 @@ img {
     border-bottom-left-radius: 0 !important;
 }
 
+
 /* ------------- connectCompanines ------------ */
 
 
@@ -775,15 +766,6 @@ img {
 .humanit-fund {
     padding: 80px 0px;
     background: #ffffff;
-}
-
-.humanit-fund .mainHumanit-sec h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 110%;
-    letter-spacing: -0.02em;
-    color: #111827;
 }
 
 .humanit-fund .mainHumanit-sec p {
@@ -833,14 +815,6 @@ img {
 
 /* ------------- whoCanApply ------------ */
 
-.whoCanApply .apply-Funds-one h3 {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 120%;
-    letter-spacing: -0.02em;
-    color: #1f2937;
-}
-
 .whoCanApply .apply-Funds-btn {
     font-weight: 700;
     font-size: 16px;
@@ -852,6 +826,15 @@ img {
     border: 1px solid #25b233;
     border-radius: 50px;
     width: fit-content;
+}
+
+.whoCanApply .apply-Funds-one .applyHeader {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #1F2937;
 }
 
 .whoCanApply .apply_sections {
@@ -1091,7 +1074,6 @@ img {
 
 /* *********** */
 
-
 @media screen and (max-width: 1200px) {
     .nav-pills .nav-link {
         display: flex;
@@ -1128,7 +1110,6 @@ img {
     }
 
     .connectCompanines .modal .modal-content,
-
     .ourPackages .modal .modal-content {
         width: 672px;
         height: auto;
@@ -1141,8 +1122,6 @@ img {
 
     .btn-sp-outline-lg-width,
     .btn-sp-solid-lg-width {
-        width: 225px;
-        height: 56px;
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;
@@ -1182,9 +1161,16 @@ img {
         height: 45px;
     }
 
-
     .ourPackages .pricingCard {
         height: 665px;
+    }
+
+    .whoCanApply .apply_sections {
+        height: 100%;
+    }
+
+    .whoCanApply .apply_sections .top-pic {
+        height: 100%;
     }
 }
 
@@ -1232,7 +1218,6 @@ img {
     .sp-heroSection .custom-shape-divider-top-1676737665 svg {
         height: 8px;
     }
-
 
     .sp-heroSection .inner-hero .hero-inner-text {
         width: 327px;
@@ -1340,17 +1325,23 @@ img {
     }
 
     .connectCompanines .modal .modal-content,
-
     .ourPackages .modal .modal-content {
         width: 90% !important;
         height: auto;
         padding: 24px;
     }
 
+    .connectCompanines {
+        padding: 50px 0 0 0;
+    }
+
+    .connectCompanines .connectcol-one {
+        padding-bottom: 0 !important;
+    }
+
     .btn-sp-outline-lg-width,
     .btn-sp-solid-lg-width {
-        width: 95%;
-        height: 48px;
+        width: 86%;
         margin: 8px auto;
         font-weight: 700;
         font-size: 16px;
@@ -1431,7 +1422,10 @@ img {
         height: 455px !important;
         right: -25% !important;
         top: 30% !important;
+    }
 
+    .whoCanApply .apply-Funds-one .applyHeader {
+        font-size: 26px !important;
     }
 }
 
