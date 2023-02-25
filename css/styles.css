@@ -187,6 +187,14 @@ img {
 
 
 /* General Styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
 
 .navbar .navbar-brand {
     width: 201px;
@@ -219,7 +227,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 .sp-heroSection .inner-hero .hero-inner-text {
@@ -306,9 +314,9 @@ img {
 
 /* ------------- aboutSection ------------ */
 
-.sp-aboutSec .aboutMainText .aboutParas {
+.sp-aboutSec .aboutMainText .aboutParas p {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     line-height: 26px;
     color: #1f2937;
