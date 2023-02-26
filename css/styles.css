@@ -1091,35 +1091,43 @@ img {
         width: 336px !important;
         height: 66px !important;
     }
+
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
         border-right: none;
         border-bottom: 2px solid #25b233;
     }
+
     .tab-content {
         padding-left: 0 !important;
     }
+
     .tab-content::after,
     .tab-content::before {
         content: none;
     }
+
     .tab-content .tab-pane .phase-cards {
         width: 100%;
         height: 319px;
     }
+
     .ourPackages .pricingCard {
         height: auto !important;
         width: 100%;
     }
+
     .connectCompanines .modal .modal-content,
     .ourPackages .modal .modal-content {
         width: 672px;
         height: auto;
         padding: 32px;
     }
+
     .ourPackages .custom-pricing {
         height: auto !important;
     }
+
     .btn-sp-outline-lg-width,
     .btn-sp-solid-lg-width {
         font-weight: 700;
@@ -1128,9 +1136,11 @@ img {
         padding: 16px 32px;
         text-align: center;
     }
+
     .humanit-fund .humanit-secd-col {
         height: 304px;
     }
+
     .contact-sec .shapeCont {
         width: 872px !important;
         height: 872px !important;
@@ -1144,28 +1154,35 @@ img {
         width: 288.77px;
         height: 263.52px;
     }
+
     .sp-heroSection .inner-hero .hero-inner-text {
         width: 672px;
     }
+
     .sp-heroSection .custom-shape-divider-top-1676737665 {
         top: -8px;
     }
+
     .sp-heroSection .custom-shape-divider-bottom-1676738375 svg,
     .sp-heroSection .custom-shape-divider-top-1676737665 svg {
         height: 45px;
     }
+
     .ourPackages .pricingCard {
-        height: 665px;
+        height: 685px;
     }
+
     .whoCanApply .apply_sections {
         height: 100%;
     }
+
     .whoCanApply .apply_sections .top-pic {
         height: 100%;
     }
 }
 
 @media screen and (max-width: 767px) {
+
     .btn-sp-outline-sm,
     .btn-sp-solid-sm,
     .btn-sp-outline-lg,
@@ -1181,6 +1198,7 @@ img {
         line-height: 24px;
         text-align: center;
     }
+
     .wholeHeader {
         font-style: normal;
         font-weight: 500;
@@ -1189,23 +1207,29 @@ img {
         letter-spacing: -0.02em;
         text-align: center;
     }
+
     .sp-heroSection .panorama-slider .swiper-slide {
         width: 165.01px;
         height: 150.58px;
     }
+
     .sp-heroSection .custom-shape-divider-top-1676737665 {
         top: -2px;
     }
+
     .sp-heroSection .custom-shape-divider-bottom-1676738375 {
         bottom: -2px;
     }
+
     .sp-heroSection .custom-shape-divider-bottom-1676738375 svg,
     .sp-heroSection .custom-shape-divider-top-1676737665 svg {
         height: 8px;
     }
+
     .sp-heroSection .inner-hero .hero-inner-text {
         width: 327px;
     }
+
     .sp-heroSection .inner-hero .hero-inner-text .hero-header {
         font-weight: 500;
         font-size: 48px;
@@ -1213,6 +1237,7 @@ img {
         text-align: center;
         letter-spacing: -0.02em;
     }
+
     .sp-heroSection .inner-hero .hero-inner-text .hero-para {
         font-style: normal;
         font-weight: 400;
@@ -1220,23 +1245,28 @@ img {
         line-height: 24px;
         text-align: center;
     }
+
     .sp-aboutSec,
     .sp-aboutSec .aboutImg {
         padding-left: 0;
         padding-right: 0;
         border-radius: 0;
     }
+
     .howItWorks .nav-pills .nav-link {
         width: 163.5px !important;
         height: 48px !important;
     }
+
     .howItWorks .tab-content {
         margin-left: 12px !important;
     }
+
     .howItWorks .tab-content .tab-pane .phase-cards {
         width: 100%;
         height: 307px;
     }
+
     .ourPackages .pricingCard .pricingCardBody .bodyHead,
     .howItWorks .tab-content .tab-pane .phase-cards h4,
     .howItWorks .nav-pills .nav-link {
@@ -1245,6 +1275,7 @@ img {
         font-size: 16px;
         line-height: 24px;
     }
+
     .ourPackages .pricingCards .pkgName,
     .howItWorks .tab-content .tab-pane .phase-cards h2 {
         font-style: normal;
@@ -1252,6 +1283,7 @@ img {
         font-size: 22px;
         line-height: 120%;
     }
+
     .ourPackages .pricingCard .pricingCardBody .benefitLists,
     .ourPackages .pricingCards .pkgNote,
     .howItWorks .tab-content .tab-pane .phase-cards p {
@@ -1260,10 +1292,12 @@ img {
         font-size: 14px;
         line-height: 22px;
     }
+
     .ourPackages .col-xl-4.col-12 {
         padding-left: 6px;
         padding-right: 8px;
     }
+
     .ourPackages .pricingCard {
         padding: 22px 12px;
         height: 455px;
@@ -1272,16 +1306,19 @@ img {
         align-items: start;
         align-content: start;
     }
+
     .ourPackages .pricingCards .pkgPrice {
         font-weight: 500;
         font-size: 30px;
         line-height: 110%;
         letter-spacing: -0.02em;
     }
+
     .ourPackages .pricingCard .pricingCardBody .benefitLists {
         margin-top: 10px !important;
         margin-bottom: 10px !important;
     }
+
     .ourPackages .pricingCard .pricingBtnLargeScreen {
         padding: 10px 24px;
         width: 80%;
@@ -1292,18 +1329,22 @@ img {
         font-size: 14px;
         line-height: 22px;
     }
+
     .connectCompanines .modal .modal-content,
     .ourPackages .modal .modal-content {
         width: 90% !important;
         height: auto;
         padding: 24px;
     }
+
     .connectCompanines {
         padding: 50px 0 0 0;
     }
+
     .connectCompanines .connectcol-one {
         padding-bottom: 0 !important;
     }
+
     .btn-sp-outline-lg-width,
     .btn-sp-solid-lg-width {
         width: 86%;
@@ -1312,11 +1353,13 @@ img {
         font-size: 16px;
         line-height: 24px;
     }
+
     .whoCanApply .apply-Funds-one {
         display: flex !important;
         justify-content: space-between;
         align-items: center;
     }
+
     .contact-sec.container-lg,
     .connectCompanines .connectcol-one,
     .connectCompanines .container-lg {
@@ -1324,56 +1367,69 @@ img {
         padding-right: 0;
         border-radius: 0;
     }
+
     .humanit-fund .humanit-secd-col {
         height: auto;
         margin: 12px auto;
     }
+
     .humanit-fund {
         padding-bottom: 0;
     }
+
     .whoCanApply .apply_sections .top-pic {
         border-radius: 16px 16px 0 0 !important;
         height: 204px;
     }
+
     .aboutUS .paginationAboutSwiper .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
     .aboutUS .paginationAboutSwiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 0 6px;
     }
+
     .aboutUS .aboutSwiperPic {
         height: 348px;
     }
+
     .aboutUS .aboutSwiperTxt p {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
     }
+
     .aboutUS .aboutSwiperTxt a {
         font-weight: 500;
         font-size: 14px;
         line-height: 22px;
     }
+
     .footer .footer-row .innerfooter img {
         width: 250px !important;
     }
+
     .contact-sec .inner-contact {
         padding: 56px 24px !important;
         height: 340px !important;
     }
+
     .modal-header {
         display: flex;
         justify-content: center;
         align-items: baseline;
     }
+
     .modal.sponsorModal .sponsorModalBtn1 {
         width: 100%;
     }
+
     .contact-sec .shapeCont {
         width: 455px !important;
         height: 455px !important;
         right: -25% !important;
         top: 30%;
     }
+
     .whoCanApply .apply-Funds-one .applyHeader {
         font-size: 26px !important;
     }
@@ -1384,6 +1440,7 @@ img {
         margin-top: 4px !important;
         margin-bottom: 4px !important;
     }
+
     .ourPackages .pricingCard .pricingBtnLargeScreen {
         display: flex !important;
         align-items: center;
@@ -1392,6 +1449,7 @@ img {
         width: 90%;
         margin: 0 auto;
     }
+
     .btn-sp-outline-lg-width,
     .btn-sp-solid-lg-width {
         margin: 8px auto;
@@ -1399,28 +1457,34 @@ img {
         font-size: 14px;
         line-height: 22px;
     }
+
     .connectCompanines .connectcol-two .inner-connectcol-two .connectcol-two-info h4 .innerh2 {
         margin-left: 44px;
     }
+
     .meet-CEO .ceo-card {
         padding: 56px 25px !important;
     }
+
     .contact-sec .shapeCont {
         width: 455px !important;
         height: 455px !important;
         left: 51px !important;
         top: 228px;
     }
+
     .contact-sec .shapeCont {
         width: 508px !important;
         height: 455px !important;
         left: 51px !important;
         top: 211px;
     }
+
     .btn-sp-outline-lg-width,
     .btn-sp-solid-lg-width {
         width: 100%;
     }
+
     .navbar .navbar-brand {
         width: 134px;
     }
