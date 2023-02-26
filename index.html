@@ -586,7 +586,7 @@
         <div class="modal fade pkgModal" id="silverModal" tabindex="-1" aria-labelledby="silverModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="silverModalLabel">Silver Package Details</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -624,7 +624,7 @@
         <div class="modal fade pkgModal" id="goldModal" tabindex="-1" aria-labelledby="goldModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="goldModalLabel">Gold Package Details</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -664,7 +664,7 @@
         <div class="modal fade sponsorModal sponsorModal1" id="sponsorModal" tabindex="-1" aria-labelledby="sponsorModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="sponsorModalLabel">Become a sponsor - Apply here</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -732,7 +732,7 @@
         <div class="modal fade sponsorModal sponsorModal2" id="sponsorModal2" tabindex="-1" aria-labelledby="sponsorModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="sponsorModal2Label">Become a sponsor - Apply here</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -778,7 +778,7 @@
         <div class="modal fade sponsorModal sponsorModal1" id="sponsorModalSpecific" tabindex="-1" aria-labelledby="sponsorModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="sponsorModalLabel">
                             Become a sponsor of Team X - Apply here
                         </h1>
@@ -838,7 +838,7 @@
         <div class="modal fade sponsorModal sponsorModal2" id="sponsorModalSpecific2" tabindex="-1" aria-labelledby="sponsorModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="sponsorModal2Label">
                             Become a sponsor of Team X - Apply here
                         </h1>
@@ -895,8 +895,8 @@
                     <div class="inner-connectcol-two">
                         <h1 class="wholeHeader">Connecting Companies and Youth Sport Talents</h1>
                         <div class="connectcol-two-info py-4">
-                            <h4>
-                                <i class="bi bi-check2 me-3"></i>Connection between <span class="innerh2">companies</span>
+                            <h4 class="d-flex">
+                                <i class="bi bi-check2 me-3"></i><span class="d-block">Connection between companies</span>
                             </h4>
                             <p class="px-5"><span>The Sponsor Portal</span> functions as a connection between companies/sponsors who wish to support children's and youth sports through financial contributions and associations/teams seeking support for their activities.
                             </p>
@@ -916,7 +916,7 @@
         <div class="modal fade sponsorModal sponsorModal2" id="sponsorRegisterModal" tabindex="-1" aria-labelledby="sponsorRegisterModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="sponsorRegisterModal">
                             Register your team for the chance to be sponsored
                         </h1>
@@ -1129,7 +1129,7 @@
                 <div class="apply-Funds-one d-flex flex-xl-column flex-row justify-content-xl-start justify-content-md-between justify-content-start mb-xl-1 mb-4">
                     <h1 class="applyHeader">Who Can Apply?</h1>
 
-                    <button class="apply-Funds-btn mt-xl-4 d-md-block d-none">Apply Funds Now</button>
+                    <button class="apply-Funds-btn mt-xl-4 d-md-block d-none" data-bs-target="#sponsorModalApply" type="button" data-bs-toggle="modal">Apply Funds Now</button>
                 </div>
             </div>
             <div class="col-xl-9">
@@ -1157,8 +1157,46 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-10 col-sm-10 col-12 pt-4 d-md-none d-block">
-                        <button class="apply-Funds-btn w-100 mt-xl-4">Apply Funds Now</button>
+                    <div class="col-sm-10 col-sm-10 col-12 pt-4 d-md-none d-block apply_nowbtn">
+                        <button class="apply-Funds-btn w-100 mt-xl-4" data-bs-target="#sponsorModalApply" type="button" data-bs-toggle="modal">Apply Funds Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sponsor Modal 2 -->
+        <div class="modal fade sponsorModal sponsorModal1 sponsorModal2" id="sponsorModalApply" tabindex="-1" aria-labelledby="sponsorModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
+                        <h1 class="modal-title" id="sponsorModal2Label">
+                            Apply for support from our Humanitarian Fund
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ps-0">
+                        <form class="row g-3">
+                            <div class="mb-2 col-lg-6">
+                                <label for="Name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="mb-2 col-lg-6">
+                                <label for="FullName" class="form-label">Surname</label>
+                                <input type="text" class="form-control" placeholder="John">
+                            </div>
+                            <div class="mb-2 col-12">
+                                <label for="Email Address" class="form-label">Email Address</label>
+                                <input type="text" class="form-control" placeholder="Enter your email address">
+                            </div>
+                            <div class="mb-2 col-12">
+                                <label for="Your Situation" class="form-label">Your Situation
+                                </label>
+                                <textarea class="form-control" placeholder="Describe your situation"></textarea>
+                            </div>
+                            <div class="col-12 mt-4 d-flex flex-md-row flex-column-reverse">
+                                <button class="sponsorModalBtn1 mx-2 my-1">Submit Application</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -1219,7 +1257,7 @@
                             <a href="#" class="sp-link">Show more</a>
                         </div>
                         <div class="col-xl-6 aboutSwiperPic pe-xl-0 ps-xl-2 px-0 pb-4">
-                            <img src="./assets/about-11.png" width="100%" alt="">
+                            <img src="./assets/2.png" width="100%" alt="">
                         </div>
                     </div>
                 </div>
@@ -1237,7 +1275,7 @@
                             <a href="#" class="sp-link">Show more</a>
                         </div>
                         <div class="col-xl-6 aboutSwiperPic pe-xl-0 ps-xl-2 px-0 pb-4">
-                            <img src="./assets/about-11.png" width="100%" alt="">
+                            <img src="./assets/3.png" width="100%" alt="">
                         </div>
                     </div>
                 </div>
@@ -1255,7 +1293,7 @@
                             <a href="#" class="sp-link">Show more</a>
                         </div>
                         <div class="col-xl-6 aboutSwiperPic pe-xl-0 ps-xl-2 px-0 pb-4">
-                            <img src="./assets/about-11.png" width="100%" alt="">
+                            <img src="./assets/4.png" width="100%" alt="">
                         </div>
                     </div>
                 </div>
@@ -1341,7 +1379,7 @@
         <div class="modal fade sponsorModal sponsorModal2" id="contactModal" tabindex="-1" aria-labelledby="sponsorModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header ps-0 border-bottom-0 pt-0">
+                    <div class="modal-header ps-0 border-bottom-0 pt-0 d-flex justify-content-center align-items-baseline">
                         <h1 class="modal-title" id="sponsorModal2Label">Contact Us</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
