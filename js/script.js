@@ -1,10 +1,15 @@
 var swiperPanorama = new Swiper(".swiper-panorama", {
+    loop: true,
     slidesPerView: 1.8,
     spaceBetween: 10,
     loop: true,
     grabCursor: true,
     // centeredSlides: true,
     speed: 1000,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false
+    },
     breakpoints: {
         640: {
             slidesPerView: 2.2,
