@@ -103,3 +103,20 @@ var aboutSwiper = new Swiper(".aboutSwiper", {
         clickable: true,
     },
 });
+
+
+// back-to-top
+
+let backToTop = document.querySelector('.back-to-top');
+
+window.onscroll = () => {
+    if (window.scrollY > 350) {
+        backToTop.style.visibility = "visible";
+        backToTop.style.opacity = "1";
+    }
+    else {
+        backToTop.style.visibility = "hidden";
+        backToTop.style.opacity = "0";
+
+    }
+}
