@@ -507,7 +507,7 @@ img {
     background: #25b233;
     border-radius: 50%;
     position: absolute;
-    left: -20px;
+    left: -21px;
     top: 7px;
 }
 
@@ -915,7 +915,7 @@ img {
 .aboutUS .aboutSwiperTxt p {
     font-style: normal;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     color: #1f2937;
 }
