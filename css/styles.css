@@ -50,6 +50,10 @@ body {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
 input,
 button,
 .form-check-input[type="checkbox"]:focus {

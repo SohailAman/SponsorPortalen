@@ -41,7 +41,7 @@
     <!-- navbar section start here -->
     <nav class="navbar navbar-expand-md py-4" id="navbar">
         <div class="container-lg inner_navbar justify-content-between align-items-baseline">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand redirectLink" href="#top">
                 <img src="./assets/Logo.png" width="100%" alt="">
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -60,29 +60,29 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="m-auto ps-lg-5 ps-md-0 ps-sm-0 navbar-nav d-sm-flex d-md-none d-lg-flex">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sponsors</a>
+                        <a class="nav-link redirectLink" href="#Sponsors">Sponsors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
+                        <a class="nav-link redirectLink" href="#Teams">Teams</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Humanitarian Fund</a>
+                        <a class="nav-link redirectLink" href="#Humanitarian">Humanitarian Fund</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link redirectLink" href="#AboutUs">About Us</a>
                     </li>
                 </ul>
             </div>
             <div class="collapse navbar-collapse d-none d-sm-none d-md-flex d-lg-flex flex-grow-0"
                 id="navbarNavAltMarkup">
                 <div class="mx-auto navbar-nav sp-btn-group">
-                    <button class="btn-sp-outline-sm">
+                    <a href="#ContactUs" class="redirectLink btn-sp-outline-sm">
                         Contact Us
-                    </button>
+                    </a>
 
-                    <button class="btn-sp-solid-sm">
+                    <a href="#Pricing" class="redirectLink btn-sp-solid-sm">
                         See Pricing
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -101,13 +101,13 @@
                 </p>
             </div>
             <div class="sp-btn-group">
-                <button class="btn-sp-solid-lg">
+                <a href="#Pricing" class="redirectLink btn-sp-solid-lg">
                     See Pricing
-                </button>
+                </a>
 
-                <button class="btn-sp-outline-lg">
+                <a href="#ContactUs" class="redirectLink btn-sp-outline-lg">
                     Contact Us
-                </button>
+                </a>
 
             </div>
         </div>
@@ -164,7 +164,7 @@
     <!-- hero section ends here -->
 
     <!-- about section starts here -->
-    <section class="sp-aboutSec container-lg my-5">
+    <section class="sp-aboutSec container-lg my-5" id="Sponsors">
         <div class="row mx-0 mb-4">
             <div class="col-12 aboutMainText mt-3 px-xl-0">
                 <h1 class="wholeHeader">Sponsors </h1>
@@ -524,7 +524,7 @@
     <!-- howItWorks section ends here -->
 
     <!-- Our Packages section starts here -->
-    <section class="ourPackages container-lg my-5">
+    <section class="ourPackages container-lg my-5" id="Pricing">
         <div class="pkgInner">
             <h1 class="wholeHeader">Our Packages</h1>
             <div class="row my-4 mx-0 pricingCards">
@@ -694,7 +694,8 @@
                                     professional support and expertise in matching teams with appropriate sponsors based
                                     on their business values ​​and goals. This also includes continuous monitoring and
                                     management of communications, accountability, and compliance to ensure a smooth and
-                                    successful partnership for all involved. <b> SponsorPortalen also sets aside 2.5% of
+                                    successful partnership for all involved. <b class="fw-bold"> SponsorPortalen also
+                                        sets aside 2.5% of
                                         every invoice to our own Humanitarian Fund. </b>
                                 </p>
                             </li>
@@ -748,7 +749,8 @@
                                     management of communications, accountability, and compliance to ensure a smooth and
                                     successful partnership for all involved, as well as the creation of a professional
                                     UI/UX design and photo- and video editing.
-                                    <b>SponsorPortalen also sets aside 2.5% of every invoice to our own Humanitarian
+                                    <b class="fw-bold">SponsorPortalen also sets aside 2.5% of every invoice to our own
+                                        Humanitarian
                                         Fund. </b>
                                 </p>
                             </li>
@@ -804,7 +806,8 @@
                                     ensure a smooth and successful partnership for all involved, as well as the creation
                                     of a professional UI/UX design and photo- and video editing, as well as the costs of
                                     printing the company’s logo on the teams' match kits.
-                                    <b> SponsorPortalen also sets aside 2.5% of every invoice to our own Humanitarian
+                                    <b class="fw-bold"> SponsorPortalen also sets aside 2.5% of every invoice to our own
+                                        Humanitarian
                                         Fund. </b>
                                 </p>
                             </li>
@@ -1061,7 +1064,7 @@
     <!-- Our Packages section ends here -->
 
     <!-- Connecting Companies section start here -->
-    <section class="connectCompanines">
+    <section class="connectCompanines" id="Teams">
         <div class="container-lg">
             <div class="row mx-0 flex-xl-row flex-column-reverse">
                 <div class="col-xl-6 col-12 connectcol-one pe-xl-5 py-3">
@@ -1158,7 +1161,7 @@
     <!-- Connecting Companies section end here -->
 
     <!-- Humanitarian Fund start here -->
-    <section class="humanit-fund container-lg px-3">
+    <section class="humanit-fund container-lg px-3" id="Humanitarian">
         <div class="mainHumanit-sec">
             <h1 class="wholeHeader d-block text-start">Humanitarian Fund</h1>
             <p class="pt-3">
@@ -1394,7 +1397,7 @@
     <!-- whoCanApply ends here -->
 
     <!-- About US section starts here -->
-    <section class="aboutUS container-lg mb-5">
+    <section class="aboutUS container-lg mb-5" id="AboutUs">
         <div class="topDets d-flex align-content-center justify-content-between">
             <h1 class="wholeHeader pt-5">About Us</h1>
             <!-- Swiper large Nav -->
@@ -1418,10 +1421,12 @@
                     <div class="row mx-0 flex-xl-row flex-column-reverse">
                         <div class="col-xl-6 aboutSwiperTxt ps-xl-0 pe-xl-2 px-0">
                             <p>
-                                In the words of the founder's father, who coached and mentored kids for over a decade…
+                                <b class="fw-bold">In the words of the founder's father, who coached and mentored kids
+                                    for over a
+                                    decade…</b>
                             </p>
                             <p>
-                                It was a cold winter's day when the boy, only six years old, came home with a letter
+                                "It was a cold winter's day when the boy, only six years old, came home with a letter
                                 from the local football (soccer) association. "If you want your children to continue to
                                 practice football, it is important that the parents step up as coaches and team
                                 managers," the association announced. They offered to help with materials, advice, and
@@ -1480,7 +1485,7 @@
                     <div class="row mx-0 flex-xl-row flex-column-reverse">
                         <div class="col-xl-6 aboutSwiperTxt ps-xl-0 pe-xl-2 px-0">
                             <p>
-                                ​​And it was worth it!
+                                <b class="fw-bold"> ​​And it was worth it!</b>
                             </p>
                             <p>
                                 To see the boys' happy faces when they got to go to tournaments and experience things
@@ -1522,9 +1527,10 @@
                                 While we were fortunate to have contacts who could help us get jobs, earn money, and
                                 find sponsors, we realized that not everyone had the same opportunities. My son, the CEO
                                 of this company, and his team were inspired by the struggles many teams face and wanted
-                                to create <b>a platform where everyone, regardless of background or circumstances, could
+                                to create <b class="fw-bold">a platform where everyone, regardless of background or
+                                    circumstances, could
                                     have the chance to get the help they need to experience the development and joy that
-                                    club life offers. </b>
+                                    club life offers." </b>
                             </p>
                             <a href="#" class="sp-link">Show more</a>
                         </div>
@@ -1595,7 +1601,7 @@
     <!-- meet-CEO section ends here -->
 
     <!-- Contact us start here -->
-    <section class="container-lg contact-sec mt-5 mb-lg-4 py-md-5 py-0 mb-0">
+    <section class="container-lg contact-sec mt-5 mb-lg-4 py-md-5 py-0 mb-0" id="ContactUs">
         <div class="inner-contact position-relative overflow-hidden">
             <div class="row mx-0 contact-row">
                 <div class="col-xl-10 col-lg-10 col-md-10 contact-col">

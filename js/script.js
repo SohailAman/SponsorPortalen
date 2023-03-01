@@ -130,3 +130,13 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    // Smooth scroll to section
+    $('.redirectLink').click(function () {
+        var section = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(section).offset().top
+        }, 800);
+        return false;
+    });
+});
